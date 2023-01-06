@@ -22,17 +22,17 @@ namespace CharterCommunicationInfrastructure.Repositories
             });
             transactions.Add(new Transaction()
             {
-                CCTransactionId = 1,
+                CCTransactionId = 2,
                 CCTransactionDate = DateTime.Today.AddMonths(-2),
-                CCCustomerId = 1,
-                CCTotalAmount = 120
+                CCCustomerId = 2,
+                CCTotalAmount = 115
             });
             transactions.Add(new Transaction()
             {
-                CCTransactionId = 1,
+                CCTransactionId = 3,
                 CCTransactionDate = DateTime.Today.AddMonths(-4),
-                CCCustomerId = 1,
-                CCTotalAmount = 120
+                CCCustomerId = 3,
+                CCTotalAmount = 150
             });
             return transactions;
         }
