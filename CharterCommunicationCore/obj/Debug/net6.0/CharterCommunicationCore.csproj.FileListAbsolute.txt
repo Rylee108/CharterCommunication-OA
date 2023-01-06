@@ -1,0 +1,12 @@
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\bin\Debug\net6.0\CharterCommunicationCore.deps.json
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\bin\Debug\net6.0\CharterCommunicationCore.dll
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\bin\Debug\net6.0\CharterCommunicationCore.pdb
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\obj\Debug\net6.0\CharterCommunicationCore.csproj.AssemblyReference.cache
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\obj\Debug\net6.0\CharterCommunicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\obj\Debug\net6.0\CharterCommunicationCore.AssemblyInfoInputs.cache
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\obj\Debug\net6.0\CharterCommunicationCore.AssemblyInfo.cs
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\obj\Debug\net6.0\CharterCommunicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\obj\Debug\net6.0\CharterCommunicationCore.dll
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\obj\Debug\net6.0\refint\CharterCommunicationCore.dll
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\obj\Debug\net6.0\CharterCommunicationCore.pdb
+C:\Users\Yunlei\Documents\GitHub\CharterCommunication\CharterCommunicationOA\CharterCommunicationCore\obj\Debug\net6.0\ref\CharterCommunicationCore.dll
