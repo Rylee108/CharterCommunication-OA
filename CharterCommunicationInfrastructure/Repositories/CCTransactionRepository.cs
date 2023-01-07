@@ -15,23 +15,23 @@ namespace CharterCommunicationInfrastructure.Repositories
             var transactions = new List<Transaction>();
             transactions.Add(new Transaction()
             {
-                CCTransactionId = 1,
+                CCTransactionId = 001,
+                CCTransactionDate = DateTime.Today.AddMonths(-3),
+                CCCustomerId = 001,
+                CCTotalAmount = 90
+            });
+            transactions.Add(new Transaction()
+            {
+                CCTransactionId = 002,
                 CCTransactionDate = DateTime.Today.AddMonths(-1),
-                CCCustomerId = 1,
-                CCTotalAmount = 120
+                CCCustomerId = 002,
+                CCTotalAmount = 125
             });
             transactions.Add(new Transaction()
             {
-                CCTransactionId = 2,
-                CCTransactionDate = DateTime.Today.AddMonths(-2),
-                CCCustomerId = 2,
-                CCTotalAmount = 115
-            });
-            transactions.Add(new Transaction()
-            {
-                CCTransactionId = 3,
-                CCTransactionDate = DateTime.Today.AddMonths(-4),
-                CCCustomerId = 3,
+                CCTransactionId = 003,
+                CCTransactionDate = DateTime.Today.AddMonths(-5),
+                CCCustomerId = 003,
                 CCTotalAmount = 150
             });
             return transactions;

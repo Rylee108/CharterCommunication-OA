@@ -19,47 +19,47 @@ namespace CharterCommunicationInfrastructure.Services
 
         public decimal GetRewardPointsEachMonth(int CCcustomerId, int MonthsRecords)
         {
-            var transactions = _cctransactionRepository.GetAllTransactions();
-            var transactionsByCustomer = transactions.Where(t => t.CCCustomerId == CCcustomerId &&
+            var cctransactions = _cctransactionRepository.GetAllTransactions();
+            var transactionsByCustomer = cctransactions.Where(t => t.CCCustomerId == CCcustomerId &&
                                                                  ((DateTime.Today.Year - t.CCTransactionDate.Year) * 12 +
                                                                      DateTime.Today.Month - t.CCTransactionDate.Month == MonthsRecords));
-            decimal rewards = 0;
+            decimal rewardpoints = 0;
             foreach (var transaction in transactionsByCustomer)
             {
-                rewards += GetRewards(transaction.CCTotalAmount);
+                rewardpoints += GetRewards(transaction.CCTotalAmount);
             }
 
-            return rewards;
+            return rewardpoints;
         }
 
         public decimal GetThreeMonthsRewardPoints(int CCcustomerId)
         {
-            var transactions = _cctransactionRepository.GetAllTransactions()
+            var cctransactions = _cctransactionRepository.GetAllTransactions()
                 .Where(t => t.CCCustomerId == CCcustomerId && ((DateTime.Today.Year - t.CCTransactionDate.Year) * 12 +
                     DateTime.Today.Month - t.CCTransactionDate.Month <= 3)); ;
-            decimal rewards = 0;
-            foreach (var transaction in transactions)
+            decimal rewardpoints = 0;
+            foreach (var transactions in cctransactions)
             {
-                rewards += GetRewards(transaction.CCTotalAmount);
+                rewardpoints += GetRewards(transactions.CCTotalAmount);
             }
 
-            return rewards;
+            return rewardpoints;
         }
 
         private decimal GetRewards(decimal totalAmount)
         {
-            decimal rewards = 0;
+            decimal rewardpoints = 0;
             if (totalAmount > 100)
             {
-                rewards += (totalAmount - 100) * 2;
+                rewardpoints += (totalAmount - 100) * 2;
             }
 
             if (totalAmount > 50)
             {
-                rewards += Math.Min(totalAmount, 100) - 50;
+                rewardpoints += Math.Min(totalAmount, 100) - 50;
             }
 
-            return rewards;
+            return rewardpoints;
         }
     }
 }
