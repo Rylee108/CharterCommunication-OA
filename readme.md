@@ -13,10 +13,17 @@ Architecture of Project:
 2.Infrastructure
 3.Web API
 
-Build With:
+Built With:
 1 Develop the project by using ASP.NET Core Web API
 2 .NET Core
 3 Dependency Injection
 4 .Net 6
 5 Entity Framework Core
+
+Usage:
+![361015d13eaf0fb985437636dee7a75](https://user-images.githubusercontent.com/107888822/211622886-ce18c063-4e71-4ae5-b57f-917e1d1cae8b.png)
+To see the reward points for each customer:
+![cd14bab316c8d11a5b06a3d17f4889d](https://user-images.githubusercontent.com/107888822/211623938-6b064588-3e87-42cb-a485-e5e91b0f5982.png)
+To see the reward points for each custoemr for three months:
+![a1ddb13e22cbed36ea059c4399c926c](https://user-images.githubusercontent.com/107888822/211624051-0818e65f-486f-4c39-ab24-4252742360cc.png)
 
